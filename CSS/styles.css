@@ -1,0 +1,46 @@
+
+
+/* this is how you comment */
+* {
+  text-align: right
+}
+body {
+  background-image: url(background-image.jpg);
+}
+
+h2, p{
+  color: #E4EAF7;
+  text-align: center;
+  border: 5px solid #FFF0A6;
+  cursor: pointer;
+}
+
+p {
+  color: pink;
+}
+
+p {
+  color: #E4EAF7;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext{
+  border: 5px dashed #FFF0A6;
+
+}
+
+.active {
+  color: red;
+}
+
+#div1{
+  background: rgba(0, 0, 255, 0.2)
+}
+
+#div2{
+  background: rgba(255, 0, 0, 0.2)
+}
