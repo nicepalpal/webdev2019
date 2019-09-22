@@ -8,19 +8,37 @@ body {
   background-image: url(background-image.jpg);
 }
 
-h2, p{
+h2{
+  color: #FFF0A6;
+}
+
+p{
   color: #E4EAF7;
   text-align: center;
   border: 5px solid #FFF0A6;
   cursor: pointer;
 }
 
+
 p {
-  color: pink;
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: 'Lora', serif, "Times New Roman";
 }
 
 p {
   color: #E4EAF7;
+}
+
+img{
+  float: right;
+}
+
+footer{
+  clear: both;
+  text-align: center;
 }
 
 li {
