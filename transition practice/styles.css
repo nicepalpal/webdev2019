@@ -1,0 +1,15 @@
+.container{
+  margin: 100px;
+}
+
+.triangle {
+  height: 30px;
+  width: 40px;
+  margin: 15px;
+}
+
+.triangle0{
+  @extend .circle;
+  background: PaleTurquoise;
+  transition: all 1.5 linear;
+}
