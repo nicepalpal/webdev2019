@@ -1,0 +1,33 @@
+html{
+  background: url(bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.title {
+  position: fixed;
+  left: 10%;
+  top: 5%;
+  font-family: 'Asap', sans-serif;
+  color: #3A2C16;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.btn-warning{
+  font-family: 'Asap', sans-serif;
+  background-color: #FBE36E;
+  position: absolute;
+  bottom: 7%;
+  width: 125px;
+  height: 75px;
+}
