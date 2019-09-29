@@ -6,28 +6,24 @@ html{
   background-size: cover;
 }
 
-
 div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  flex-direction: column;
+  align-content: center;
 }
 
 .title {
-  position: fixed;
-  left: 10%;
-  top: 5%;
   font-family: 'Asap', sans-serif;
   color: #3A2C16;
   text-shadow: 2px 2px 2px #ffffff;
+  justify-content:
 }
 
 .btn-warning{
   font-family: 'Asap', sans-serif;
   background-color: #FBE36E;
-  position: absolute;
-  bottom: 7%;
-  width: 125px;
-  height: 75px;
+  align-self: baseline;
+  margin: auto;
 }
