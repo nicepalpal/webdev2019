@@ -24,14 +24,13 @@ h1{
 
 .title {
   font-family: 'Asap', sans-serif;
-  color: #3A2C16;
-  text-shadow: 2px 2px 2px #ffffff;
-  justify-content:
+  color: white;
+  text-shadow: 2px 2px 2px #87c1b2;
 }
 
 .btn-warning{
   font-family: 'Asap', sans-serif;
-  background-color: #FBE36E;
+  background-color: white;
   align-self: baseline;
   margin: auto;
 }
