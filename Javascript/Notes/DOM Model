@@ -1,0 +1,24 @@
+-What can you do with Javascript?
+
+-Change all the HTML elements and attributes in the page
+-Change all the CSS styles in the page
+-Change all the CSS styles in the page
+-Remove existing HTML elements and attributes
+-Add new HTML elements and attributes
+-Javascript can react to all existing HTML events in the page
+-JavaScript can create new HTML events in the page
+
+-This can all be done WHILE the user is on the page
+
+
+-Server flow - get HTML and CSS from server, if you want to have CSS or different page, need to send different CSS and HTML from server again
+-Javascript can do it for us all on the same page
+
+-Web page is loaded and then the DOM is created to allow us to modify HTML and CSS
+
+-DOM is needed to change or delete HTML elements
+
+-Each browser has a Javascript engine - these look at the Javascript file line by line and execute it
+-Can now use Javascript to talk with the DOM
+
+-Parent object of the DOM (document) object: Window

@@ -1,0 +1,103 @@
+Objects
+
+-Really powerful data structures
+-Also a javascript type
+-Key value store?
+
+var user = {
+  name: "John",
+  age: 34,
+  hobby: "Soccer",
+  isMarried: false
+};
+
+list[1]
+"banana"
+user.name
+"John"
+user.hobby
+"Soccer"
+user.age
+34
+
+-How to add properties to an object?
+
+user.favouriteFood = "Ramen"
+user.isMarried = true;
+
+-Why is Array not a Javascript type but Object is?
+
+An array is technically like this
+
+var user = {
+  0: name: "John",
+  1: age: 34,
+  2: hobby: "Soccer",
+  3: isMarried: false
+};
+
+-What are objects used for?
+
+A wizard in a game, health, MP, name etc
+
+Arrays would be good for listing spells
+
+var user = {
+  name: "John",
+  age: 34,
+  hobby: "Soccer",
+  isMarried: false
+  spells: ["Fira", "Blizzaga"]
+};
+
+-Can I have an object in an array?
+
+Yes, list of users for an app
+
+var list = [
+  {
+    username: "Andy",
+    password: "secret"
+  },
+  {
+    username: "jess",
+    password: "123"
+  }
+];
+
+-Adding functions to objects
+
+var user = {
+  name: "John",
+  age: 34,
+  hobby: "Soccer",
+  isMarried: false,
+  spells: ["Fira", "Blizzaga"],
+  shout: function(){
+    console.log("AHHHH!");
+  }
+};
+
+user.shout();
+AHHHH!
+
+-Console.log?
+  Console is just an object! .log is a method it has
+  console.info("hello");
+    hello
+  Methods are functions inside an object
+
+-Can you make an empty object?
+
+user2 = {};
+
+-Can you make an empty array?
+
+list2 = [];
+
+-Empty object vs nullobject
+
+var nullObj = null;
+
+nullObj
+null
