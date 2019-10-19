@@ -1,0 +1,20 @@
+.coolTitle{
+  position: relative;
+  margin:5% auto 0;
+  text-align: center;
+  color: transparent;
+  font-family: 'Titillium Web';
+  font-size:130px;
+  background: url("https://veuwer.com/i/3g2n.jpg") repeat left top;
+  -webkit-background-clip: text;
+  animation: waves 5s infinite;
+  animation-direction: alternate;
+}
+
+.coolTitle:before{
+  content:"Shopping List";
+  text-shadow: 5px 5px 15px #282828;
+  position:absolute;
+  top:0;
+  z-index:-1;
+}

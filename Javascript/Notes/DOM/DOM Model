@@ -22,3 +22,6 @@
 -Can now use Javascript to talk with the DOM
 
 -Parent object of the DOM (document) object: Window
+
+-Window is an object that describes this browser
+  -window.document.write("hey")
