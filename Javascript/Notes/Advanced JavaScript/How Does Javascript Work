@@ -1,0 +1,88 @@
+//How Does Javascript Work?
+
+//What does it mean to say 'Javascript is a single threaded language that can be non-blocking?'
+
+//1. What is a program?
+
+//A program has to allocate memory, otherwise there ////would be no variable or files to store.
+//It also has to parse and execute scripts - read and //run commands.
+
+//There is the Javascript engine that uses V8. It //takes our script and changes it into machine-readable instructions for our browser.
+
+
+//The V8 engine has a Memory Heap and CallStack.
+
+//The Memory Heap allocates memory. The CallStack executes the program and know where you are in the program.
+
+//Ex of Allocating Memory in the Heap
+
+const a = 1;
+
+//Javascript engine will remember a has a value of 1.
+
+//Call Stack - Reads and executes scripts.
+//Reads the first line and puts it in the Callstack. It is run and puts '1'. It is the removed and the second line it put in the call stack, executed, and removed from the stack.
+console.log('1');
+console.log('2');
+console.log('3');
+
+//Call Stack Hard Example
+
+const one = () => {
+  const two = () => {
+    console.log ('4');
+  }
+  two();
+}
+
+//In above function, one function is run, then two function is put ontop of one functions
+
+console.log('4')
+two()
+one()
+
+//Executes in above order, when there is nothing else left each line will be removed in that order
+
+
+
+//Javascript is a single-threaded language thiat is non blocking
+//Javascript only has one call stack (single-threaded)
+//Easy to run code on a single-thread but may need to wait longer
+
+
+
+
+//What is the difference between asynchronous and synchornous?
+
+//Synchronous Programming - Line 1 gets executed, line 2 gets executed, line 3 gets executed
+
+//What is stack Overflow? The call stack has too many things going on and runs out of space
+//Example of Recursion - a function that calls itself
+function foo() {
+foo()
+}
+
+foo()
+
+//What is asynchronous Programming?
+//Allows multiple things to happen at once instead of line by Line
+//Let your users interact without having to wait for everything to load
+//
+
+console.log('1')
+setTimeout(() => {
+  console.log('2');
+}, 2000)
+console.log('3')
+
+//CALL Stack
+
+//WEB WebAPIs
+
+//CALLBACK QUEUE
+
+//EVENT LOOP
+
+//Javascript Runtime Environment
+//Part of the browser
+//Has WebAPIs, DOM, AJAX (XMLHttpRequest), and Timeout (setTimeout)
